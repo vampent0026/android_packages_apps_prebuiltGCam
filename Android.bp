@@ -2,7 +2,7 @@ android_app_import {
 	name: "prebuiltGCam",
 	owner: "google",
 	apk: "prebuiltGCam.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
