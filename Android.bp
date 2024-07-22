@@ -7,7 +7,7 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
-	product_specific: true,
+	system_ext_specific: true,
 	overrides: ["Camera2", "GCamGOPrebuilt-V2", "GCamGOPrebuilt-V3", "Snap", "Flash", "FlashLensLauncher"],
 }
 
